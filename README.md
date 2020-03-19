@@ -9,6 +9,7 @@
     - [Kibana](#Kibana)
 - [微服务解决方案](#微服务解决方案)
     - [SpringCloud](#SpringCloud)
+    - [消息队列](#消息队列)
 
 ### 前言
 
@@ -23,7 +24,7 @@
 #### 部署模式
 
 1. [部署模式](docs/micro-deployment.md)
-    
+
 ### 可视化
 
 #### Kibana
@@ -36,3 +37,7 @@
 #### SpringCloud
 
 1. [SpringCloud 学习](docs/springcloud.md)
+
+#### 消息队列
+
+1. [消息队列选型](docs/mq.md)
