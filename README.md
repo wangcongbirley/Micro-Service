@@ -58,6 +58,8 @@ gateway-admin 提供路由应用管理，包括路由配置，设置灰度分流
 
 1. [Kibana](docs/kibana.md)
 
+2. [druid](docs/druid.md)
+
 #### 部署
 
 1. [部署模式](docs/micro-deployment.md)
