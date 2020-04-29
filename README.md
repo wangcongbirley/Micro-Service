@@ -14,6 +14,7 @@
     - [系统监控](#系统监控)    
     - [部署](#部署)
       - [Docker](#Docker)
+      - [tomcat集群](#tomcat集群)
     - [消息队列](#消息队列)
 - [待办...](#待办)
 
@@ -65,6 +66,7 @@ gateway-admin 提供路由应用管理，包括路由配置，设置灰度分流
 #### 部署
 
 1. [部署模式](docs/micro-deployment.md)
+2. [tomcat集群](docs/deploy.md)
 
 ##### Docker
 Docker是一个开源的容器引擎，它有助于更快地交付应用。方便快捷已经是 Docker的最大优势，过去需要用数天乃至数周的任务，在Docker容器的处理下，只需要数秒就能完成。
