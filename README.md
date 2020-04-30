@@ -73,6 +73,8 @@ Docker是一个开源的容器引擎，它有助于更快地交付应用。方�
 
 Docker-compose 是 docker 提供的一个命令行工具，用来定义和运行由多个容器组成的应用。使用 compose，我们可以通过 YAML 文件声明式的定义应用程序的各个服务，并由单个命令完成应用的创建和启动。
 
+##### tomcat集群
+-[tomcat集群](docs/deploy.md)
 #### 消息队列
 
 1. [消息队列选型](docs/mq.md)
