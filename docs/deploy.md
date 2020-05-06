@@ -30,7 +30,7 @@
 maven命令
 
 总目录下
-clean install -Dmaven.test.skip=true
+clean install -Dmaven.test.skip=true -Dstart-class=com.huawei.web.DbaseApplication
 Web层目录下
 clean package -Dmaven.test.skip=true
 
