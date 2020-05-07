@@ -1,4 +1,3 @@
-
 ### 灰度发布和蓝绿发布
 
 #### 蓝绿发布：
@@ -30,10 +29,19 @@
 maven命令
 
 总目录下
-clean install -Dmaven.test.skip=true -Dstart-class=com.huawei.web.DbaseApplication
+clean install -Dmaven.test.skip=true
 Web层目录下
 clean package -Dmaven.test.skip=true
 
+-X package -Dstart-class=com.huawei.web.DbaseApplication
 maven构建的生命周期
 
+外部tomcat启动后，访问404
+URL路径加上war包项目名称
 
+ADS和ALB服务
+
+部署步骤：
+  打war包，本地测试。
+  上传war包到his-beta，全量，中断部署。
+  访问URL地址，测试。
