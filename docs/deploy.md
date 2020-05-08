@@ -41,7 +41,17 @@ URL路径加上war包项目名称
 
 ADS和ALB服务
 
+前后端分离部署：
+
 部署步骤：
-  打war包，本地测试。
+  后台：
+  打war包，本地tomcat启动测试。
   上传war包到his-beta，全量，中断部署。
   访问URL地址，测试。
+  vue：
+  安装es转换插件
+  "plugins": ["@babel/plugin-transform-modules-commonjs"] 
+  npm install --save-dev @babel/plugin-transform-modules-commonjs 
+  本地tomcat启动测试。
+  上his-beta修改上下文根。
+  
