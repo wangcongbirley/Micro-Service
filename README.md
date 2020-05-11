@@ -66,6 +66,8 @@ gateway-admin 提供路由应用管理，包括路由配置，设置灰度分流
 
 #### 部署
 
+部署发布使用华为鲲鹏计算云，RDS的MySQL集群，灰度发布。项目打成war包，使用tomcat集群。生产环境操作需提交变更号，经过专家评审，审批通过后部署。
+
 1. [部署模式](docs/micro-deployment.md)
 2. [tomcat集群](docs/deploy.md)
 
