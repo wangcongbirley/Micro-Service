@@ -52,9 +52,16 @@ gateway-admin 提供路由应用管理，包括路由配置，设置灰度分流
 
 1. [SpringCloud Euraka](docs/springcloud.md)
 
+
 #### 治理策略
 
 1. [治理策略](docs/micro-governance.md)
+
+
+#### redis
+
+1. [redis](docs/redis.md)
+
 
 ### 运维服务层
 
